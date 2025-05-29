@@ -3,4 +3,6 @@ project(InfinityFitness)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(InfinityFitness main.cpp)
+add_executable(InfinityFitness main.cpp
+        PlanItem.cpp
+        PlanItem.h)
